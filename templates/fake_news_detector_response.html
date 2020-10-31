@@ -1,0 +1,30 @@
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>About Flask</title>
+    <script src="{{url_for('static', filename='index.js')}}"></script>
+  </head>
+  <body style="background-color:#000000">
+    {% extends "index.html" %}
+    {% block content %}
+    <div style="height: 80%"class="container">
+      <div class="card border-0 shadow my-5">
+        <div class="card-body p-5">
+          <h1 class="font-weight-light">Fake News Detector</h1>
+          <form method="POST">
+              <input name="text">
+              <input type="submit" value="Detect">
+          </form>
+          <p> Your statement was {{value}} </p>
+        </div>
+      </div>
+      <div class="card border-0 shadow my-5">
+        <div class="card-body p-5">
+          <h1 class="font-weight-light">Got an unexpected answer?</h1>
+          <button type="button" class="btn btn-dark"><a href="https://docs.google.com/forms/d/e/1FAIpQLSc1piqubAqxvfy4WT3vEuN41Rt82RA-H7oSYm9_4u3HMa6Y1g/viewform?usp=sf_link">Click here</a></button>
+        </div>
+      </div>
+    </div>
+    {% endblock %}
+  </body>
+</html>

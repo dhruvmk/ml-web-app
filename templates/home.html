@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>About Flask</title>
+  </head>
+  <body style="background-color:#000000">
+    {% extends "index.html" %}
+    {% block content %}
+    <header>
+      <div style="height: 80%"class="container">
+        <div class="card border-0 shadow my-5">
+          <div class="card-body p-5">
+            <h1 class="font-weight-light">About VECTOR</h1>
+            <p> Vector is an open-source web application built by high school student Dhruv Kapu. The application uses Flask, HTML and CSS (Bootstrap) along with embedded JavaScript. The ML is carried out in Sci-Kit Learn. </p>
+          </div>
+        </div>
+        <div class="card border-0 shadow my-5">
+          <div class="card-body p-5">
+            <h1 class="font-weight-light">Current Services</h1>
+            <div class="row">
+              <div class="col-lg-6 mb-4">
+                <div class="card h-100">
+                  <a href="/sentiment_classifier"><img class="card-img-top" src="/static/sentiment-analysis.jpg" alt=""></a>
+                  <div class="card-body">
+                    <h4 class="card-title">
+                      <a href="/sentiment_classifier">Sentiment Classifier</a>
+                    </h4>
+                    <button type="button" class="btn btn-dark">
+                      <a href="#">Click here to learn more</a>
+                    </button>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-6 mb-4">
+                <div class="card h-100">
+                  <a href="#"><img class="card-img-top" src="/static/spam-scanner-24862218.jpg" alt=""></a>
+                  <div class="card-body">
+                    <h4 class="card-title">
+                      <a href="#">Spam Detector</a>
+                    </h4>
+                    <button type="button" class="btn btn-dark">
+                      <a href="#">Click here to learn more</a>
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="card border-0 shadow my-5">
+          <div class="card-body p-5">
+            <h1 class="font-weight-light">Coming Soon</h1>
+            <p class="lead">Check back here later for updates!</p>
+          </div>
+        </div>
+      </div>
+
+    </header>
+
+    {% endblock %}
+  </body>
+</html>

@@ -1,0 +1,21 @@
+#navbarbrand {
+  color:lightblue;
+  font-weight:bold;
+  vertical-align:center;
+}
+
+body {
+  background-color: linear-gradient(black, lightblue);
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+}
+
+button > a {
+  color:white
+}
+
+#formWrapper {
+  display:none
+}
