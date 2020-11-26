@@ -11,5 +11,4 @@ ML Operations: Done using Sci-Kit Learn
 Frontend: HTML, CSS and JavaScript. Also used Bootstrap to clean up the UI
 
 
-Final application:
-https://dmk.pythonanywhere.com
+
