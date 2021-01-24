@@ -7,6 +7,9 @@ Vector is a full stack ML application built for easy access to high-level text s
   - A Sentiment Classifier
   - A Spam Detector
 
+### Live app:
+
+Available at: https://dmk.pythonanywhere.com/
 
 
 ### Details
