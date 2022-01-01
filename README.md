@@ -2,7 +2,7 @@
 
 
 
-Vector is a full stack ML application built for easy access to high-level text services. It consists of:
+A stack ML application with sophisticated text analysis models. It consists of:
 
   - A Sentiment Classifier
   - A Spam Detector
