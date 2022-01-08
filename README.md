@@ -16,7 +16,7 @@ Available at: https://dmk.pythonanywhere.com/
 
 
 - Server Side: Carried out using Flask
-- ML Operations: Done using Sci-Kit Learn 
+- ML Models and Vectorizers: scikit-learn
 - Frontend: HTML, CSS and JavaScript. Also used Bootstrap to clean up the UI
 
 
