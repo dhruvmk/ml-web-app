@@ -2,7 +2,7 @@
 
 
 
-A stack ML application with two text analysis models that use Logistic Regression. It consists of:
+An ML application with two text analysis models that use Logistic Regression. It consists of:
 
   - A Sentiment Classifier, trained using the IMDB dataset: https://www.kaggle.com/lakshmi25npathi/sentiment-analysis-of-imdb-movie-reviews/dat
   - A Spam Detector, trained using the SMS Spam dataset: https://www.kaggle.com/uciml/sms-spam-collection-dataset
